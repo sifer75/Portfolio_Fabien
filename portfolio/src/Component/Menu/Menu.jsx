@@ -38,7 +38,8 @@ function Menu({ sectionRef }) {
 
   const changeElement = (element) => {
     setSelectedElement(element);
-    setArrow(false);
+    setArrow(!arrow);
+    setBorder(!border)
     goingTo(element);
   };
 

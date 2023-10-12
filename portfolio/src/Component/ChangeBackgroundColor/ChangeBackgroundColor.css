@@ -1,6 +1,8 @@
 @font-face {
-  font-family: "kelsi-light";
-  src: url("../../Fonts/kelsi/Kelsi-Regular.otf");
+  /* font-family: "kelsi";
+  src: url("../../Fonts/kelsi/Kelsi-Regular.otf"); */
+    font-family: "kelsi";
+    src: url("../../Fonts/kelsi/Kelsi-fill.otf");
 }
 
 .transitionText {

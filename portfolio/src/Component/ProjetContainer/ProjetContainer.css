@@ -32,4 +32,5 @@
     background-image: url("../../assets/git.png");
     width: 36px;
     height: 36px;
+    background-size: cover;
 }

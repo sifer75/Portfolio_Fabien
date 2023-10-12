@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import "./Projet.css";
 import ProjetContainer from "../ProjetContainer/ProjetContainer";
-import Puissance from "../../assets/puissance.jpg";
-import Yugioh from "../../assets/YU-GI-OH.jpg";
-import Otium from "../../assets/otium.jpg";
+import Puissance from "../../assets/puissance.png";
+import Yugioh from "../../assets/yugioh.png";
+import Otium from "../../assets/otium.png";
 
 function Projet({ sectionRef }) {
   return (

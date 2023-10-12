@@ -9,12 +9,12 @@ function Competence({ sectionRef }) {
       <div className="page-competence" ref={sectionRef}>
         <div className="title">COMPÉTENCES</div>
         <ContainerSkill></ContainerSkill>
-        <div className="cv-button">
           <Link to="/cv" style={{textDecoration: "none"}}>
+        <div className="cv-button">
             <p>Voir mon CV</p>
-          </Link>
           <div className="fleche"></div>
         </div>
+          </Link>
       </div>
     </>
   );

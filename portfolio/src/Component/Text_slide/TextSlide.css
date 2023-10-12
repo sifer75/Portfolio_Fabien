@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "kelsi";
-  src: url("../../Fonts/kelsi/Kelsi-fill.otf");
-}
-
 .text-repeat {
   width: 100vw;
   height: 270px;
@@ -24,6 +19,12 @@
   text-transform: uppercase;
   white-space: nowrap;
   animation: defilement 4s linear infinite;
+}
+
+.hidden  { 
+  text-decoration: none;
+
+  outline: none;
 }
 
 @keyframes defilement {
