@@ -8,7 +8,6 @@ import Mongo from "../../assets/Mongo.jpg";
 import Render from "../../assets/Render.jpg";
 import Netifly from "../../assets/Netifly.jpg";
 import "./ContainerSkill.css";
-// import Tailwind from "../../assets/";
 
 function ContainerSkill() {
   return (

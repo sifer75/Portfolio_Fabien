@@ -73,8 +73,8 @@ function Menu({ sectionRef }) {
               </div>
             </div>
             <div
-              className={`arrow_container ${border ? "borderArrow" : ""} ${
-                container ? "border" : "borderBase"
+              className={`arrow_container ${border ? "" : "borderArrow"} ${
+                container ? "borderBase" : "border"
               }
             `}
               onClick={() => {
