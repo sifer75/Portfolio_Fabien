@@ -1,0 +1,59 @@
+.page-description {
+  display: flex;
+  height: 100vh;
+  margin-top: 20px;
+  width: 100vw;
+  align-items: center;
+}
+
+.container-description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+.description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 330px;
+  width: 430px;
+}
+
+.visual {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+}
+
+.dialog {
+  display: flex;
+  height: 50px;
+  padding: 5px 20px;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 10px;
+  background: #2a2a2a;
+  backdrop-filter: blur(2px);
+}
+
+.dialog > p {
+  color: white;
+}
+
+.image {
+  background-image: url(../assets/dialog.svg);
+  width: 23px;
+  height: 23px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link > p {
+  color: white;
+}

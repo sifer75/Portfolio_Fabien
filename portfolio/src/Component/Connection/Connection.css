@@ -1,0 +1,16 @@
+.connection {
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    width: 40px;
+    height: 40px;
+}
+

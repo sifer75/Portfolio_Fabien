@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "kelsi";
+  src: url("../../Fonts/kelsi/Kelsi-fill.otf");
+}
+
+.text-repeat {
+  width: 100vw;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.text {
+  color: #282828;
+  font-family: "kelsi";
+  display: flex;
+  align-items: center;
+  font-size: 133px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.572px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  animation: defilement 4s linear infinite;
+}
+
+@keyframes defilement {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

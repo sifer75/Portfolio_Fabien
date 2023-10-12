@@ -1,0 +1,26 @@
+.list-menu {
+  position: absolute;
+  left: 5%;
+  top: 12%;
+}
+
+.menuElement {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  padding: 5px 20px;
+  align-items: center;
+  gap: 20px;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  color: white;
+  border: 1px solid rgba(241, 246, 241, 0.5);
+  background-color: rgba(62, 62, 62, 0.7);
+  backdrop-filter: blur(2px);
+
+  border-radius: 10px;
+  border: 1px solid rgba(241, 246, 241, 0.5);
+  background-color: rgba(62, 62, 62, 0.7);
+  backdrop-filter: blur(2px);
+}

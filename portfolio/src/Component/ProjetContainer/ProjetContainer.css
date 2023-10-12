@@ -1,0 +1,35 @@
+.section-projet {
+  margin: 10px;
+}
+
+.block-image {
+  width: 370px;
+  height: 270px;
+  background-image: url("../../assets/puissance.png");
+  border-radius: 10px;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.block-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.voir {
+    text-decoration-style: dashed;
+}
+
+.git {
+    background-image: url("../../assets/git.png");
+    width: 36px;
+    height: 36px;
+}

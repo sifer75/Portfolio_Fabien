@@ -1,0 +1,17 @@
+
+.page-cv {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv {
+    background-image: url("../../assets/CV.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1316px;
+    width: 930px;
+    margin: 0;
+    padding: 0;
+}

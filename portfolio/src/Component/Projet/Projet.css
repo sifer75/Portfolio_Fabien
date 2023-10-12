@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "kelsi";
+  src: url("../../Font/kelsi/Kelsi-fill.otf");
+}
+
+.page-projet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+}
+
+.group-title {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projet-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #2a2a2a;
+  font-family: Helvetica Neue;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.516px;
+}
+
+.group-title > h3 {
+  color: #2a2a2a;
+  font-family: Helvetica Neue;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.09px;
+  margin-top: -35px;
+}
+
+.container-projet {
+  display: flex;
+}
+
+.logo {
+  left: 215px;
+  top: -35px;
+  position: relative;
+  font-family: "kelsi";
+  color: #2a2a2a;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.09px;
+
+  display: flex;
+  height: 34px;
+  transform: rotate(-10deg);
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+  background: #f7d24c;
+}

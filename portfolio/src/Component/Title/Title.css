@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "kelsi";
+  src: url("../../Font/kelsi/Kelsi-fill.otf");
+}
+
+.page-title {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226,228,214);
+
+}
+
+.container-title {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-title {
+  color: #2a2a2a;
+  font-family: Helvetica;
+  font-size: 120px;
+  font-weight: 900;
+  letter-spacing: 0.516px;
+}

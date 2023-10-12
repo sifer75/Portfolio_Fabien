@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "bebasNeue";
+  src: url("../../Fonts/BebasNeue-Regular.otf");
+  font-family: "poppins";
+  src: url("../../Fonts/Poppins-Medium.ttf");
+  font-family: "impact";
+  src: url("../../Fonts/Impact.ttf");
+  font-family: "kelsi";
+  src: url("../../Fonts/kelsi/Kelsi-fill.otf");
+}
+
+* {
+  font-family: "Helvetica Neue";
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(248, 248, 248, 1);
+}
