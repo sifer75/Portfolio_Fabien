@@ -17,10 +17,10 @@ function Homepage() {
     <>
       <Menu
         sectionRef={{
-          Accueil: titleRef,
+          "Accueil": titleRef,
           "A propos": descriptionRef,
-          Portfolio: projetRef,
-          Compétences: competenceRef,
+          "Portfolio": projetRef,
+          "Compétences": competenceRef,
           "Me Contacter": footerRef,
         }}
       ></Menu>

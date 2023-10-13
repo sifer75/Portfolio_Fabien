@@ -3,7 +3,7 @@ import Skill from "../Skill/Skill";
 import Html from "../../assets/html.png";
 import Css from "../../assets/css.png";
 import Javascript from "../../assets/Javascript.png";
-import Node from "../../assets/Node.png";
+import Node from "../../assets/node.png";
 import Lreact from "../../assets/react.png";
 import Tailwind from "../../assets/tailwind.png"
 import Mongo from "../../assets/mongo.png";

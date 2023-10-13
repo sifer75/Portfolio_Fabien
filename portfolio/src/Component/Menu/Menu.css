@@ -7,6 +7,7 @@
   position: fixed;
   top: 2%;
   left: 2%;
+  z-index: 1;
   height: 53px;
   gap: 13px;
   border-radius: 10px;
@@ -163,7 +164,6 @@
   position: absolute;
   left: -5.5%;
   top: 0%;
-  z-index: 100;
 }
 
 .menuElement {
