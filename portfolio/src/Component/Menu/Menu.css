@@ -12,6 +12,7 @@
   gap: 13px;
   border-radius: 10px;
   background: rgba(77, 77, 77, 0.7);
+  cursor: url("../../assets/git.png");
 
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15),
     0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 8px 40px 0px rgba(0, 0, 0, 0.04);
@@ -40,23 +41,11 @@
   letter-spacing: 0.077px;
 }
 
-.container_menu {
-  display: flex;
-  align-items: center;
-  width: 85px;
-  height: 53px;
-  justify-content: flex-end;
-
-  border-radius: 10px;
-  backdrop-filter: blur(2px);
-}
-
 .container_menu2 {
   display: flex;
   align-items: center;
   height: 43px;
   gap: 24px;
-  justify-content: space-between;
   padding: 5px 0px 5px 20px;
   margin-left: -4.5px;
   border-radius: 10px;
@@ -140,7 +129,6 @@
 
 .element {
   display: flex;
-  color: black;
   flex-direction: column;
   color: #fff;
   font-family: Helvetica;
@@ -156,31 +144,25 @@
   visibility: hidden;
 }
 
-.menu-elements {
-  position: relative;
-}
-
 .list-menu {
-  position: absolute;
-  left: -5.5%;
-  top: 0%;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  margin-left: -20px;
+  margin-right: -20px;
+  height: 53px;
 }
 
 .menuElement {
   display: flex;
-  width: fit-content;
   align-items: center;
-  gap: 20px;
-  height: 53px;
-  margin-bottom: 10px;
-  
-  color: #fff;
   font-family: Helvetica;
   font-size: 18px;
   letter-spacing: 0.077px;
-  padding: 0px 20px 0px 20px;
-
+  margin-bottom: 10px;
+  width: fit-content;
   border-radius: 10px;
+  padding: 16px 20px 16px 20px;
   background-color: rgba(62, 62, 62, 0.7);
 }
 
@@ -188,11 +170,21 @@ input[type="radio"] {
   display: none;
 }
 
-.menuElement:first-child {
-  padding-right: 79px;
+
+
+.list-menu > .menuElement:not(:first-child) {
+  animation: 0.5s test backwards ease-in-out;
 }
 
-.menuElement:first-child > input {
-  margin-top: -5px;
-  margin-left: -1px;
+@keyframes test {
+  0% {
+    margin-top: -53px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+.list-menu > label:first-child {
+  background-color: transparent;
 }

@@ -9,6 +9,7 @@ import Tailwind from "../../assets/tailwind.png"
 import Mongo from "../../assets/mongo.png";
 import Express from "../../assets/express.png";
 import Render from "../../assets/render.png";
+import Vercel from "../../assets/vercel.png";
 import Netifly from "../../assets/netifly.png";
 import "./ContainerSkill.css";
 
@@ -32,6 +33,7 @@ function ContainerSkill() {
         <div className="container-skill">
           <h2>Déploiement</h2>
           <Skill logoSkill={Netifly} title={"Netifly"}></Skill>
+          <Skill logoSkill={Vercel} title={"Vercel"}></Skill>
           <Skill logoSkill={Render} title={"Render"}></Skill>
         </div>
     </>
