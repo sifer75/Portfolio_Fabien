@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import "./Projet.css";
 import ProjetContainer from "../ProjetContainer/ProjetContainer";
 import Puissance from "../../assets/puissance.png";

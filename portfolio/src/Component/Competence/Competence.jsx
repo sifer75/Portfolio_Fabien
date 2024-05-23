@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import "./Competence.css";
 import ContainerSkill from "../ContainerSkill/ContainerSkill";
 import { Link } from "react-router-dom";
